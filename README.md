@@ -3,7 +3,7 @@
 
 ---
 
-### 🎬 Video Demonstration
+### 🎬 Video Demonstration(CLICK IMAGE) ⤵️⤵️⤵️
 
 [![Watch the ROBIN AI Video Demo(CLICK IMAGE)](assets/thumnail.png)](https://t.me/robinainew/2)
 
@@ -43,7 +43,7 @@ Docker is required to run the Robin AI tool.
     [Docker Desktop Download Site](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 
-2.  🛠️ Kali-WSL Docker Integration
+2. **🛠️ Kali-WSL Docker Integration**
 
 ### Ensure Docker Desktop is correctly configured to use Kali Linux:
 
@@ -175,9 +175,9 @@ sudo docker run --rm \
 | Step | Action | Command/Link |
 | :--- | :--- | :--- |
 | **1** | **Turn on Kali Linux WSL** | `wsl -d kali-Linux` |
-| **2** | **Update Robin** | Execute all commands from the **[Robin Full Update](#robin-full-update)** section above. |
+| **2** | **Update Robin** | Execute all commands from the **🔄 Robin Full Update** section above. |
 | **3** | **Run Docker Desktop** | Start the Docker Desktop application (or service). |
-| **4** | **Run Robin** | RUN COMMAND NUMBER 16 ABOVE!!. |
+| **4** | **Run Robin** | `sudo docker run --rm \ -v "$(pwd)/.env:/app/.env" \ --add-host=host.docker.internal:host-gateway \ -p 8501:8501 \ apurvsg/robin:latest ui --ui-port 8501 --ui-host 0.0.0.0` |
 | **5** | **Access the UI** | Go to this link: **[http://localhost:8501/](http://localhost:8501/)** |
 | **6** | **Stop Robin** | Stop the running process by pressing **`Ctrl+C`**. |
 | **7** | **Stop Kali WSL** | `wsl --terminate kali-Linux` |
