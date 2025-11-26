@@ -43,16 +43,16 @@ Docker is required to run the Robin AI tool.
     [Docker Desktop Download Site](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 
-2. ## 🛠️ Kali-WSL Docker Integration
+2.  🛠️ Kali-WSL Docker Integration
 
 ### Ensure Docker Desktop is correctly configured to use Kali Linux:
 
-1.  **Open Docker Desktop Application:** Launch the Docker Desktop application on your host system (Windows).
-2.  **Access Settings:** Navigate to **Settings** (usually accessible via the gear icon ⚙️).
-3.  **Go to Resources:** In the sidebar menu, select **Resources**.
-4.  **Find WSL Integration:** Within the Resources section, locate the **WSL integration** tab.
-5.  **Enable Kali Integration:** **Turn ON** the integration toggle switch for **Kali-Linux**.
-6.  **Apply Settings:** Click **Apply & Restart** if prompted, to save your changes and restart Docker.
+- **Open Docker Desktop Application:** Launch the Docker Desktop application on your host system (Windows).
+- **Access Settings:** Navigate to **Settings** (usually accessible via the gear icon ⚙️).
+- **Go to Resources:** In the sidebar menu, select **Resources**.
+- **Find WSL Integration:** Within the Resources section, locate the **WSL integration** tab.
+- **Enable Kali Integration:** **Turn ON** the integration toggle switch for **Kali-Linux**.
+- **Apply Settings:** Click **Apply & Restart** if prompted, to save your changes and restart Docker.
 
 > 💡 **Pro Tip:** For reliable performance, ensure **ALL** listed WSL distributions are turned ON under this setting.
 ---
@@ -177,7 +177,7 @@ sudo docker run --rm \
 | **1** | **Turn on Kali Linux WSL** | `wsl -d kali-Linux` |
 | **2** | **Update Robin** | Execute all commands from the **[Robin Full Update](#robin-full-update)** section above. |
 | **3** | **Run Docker Desktop** | Start the Docker Desktop application (or service). |
-| **4** | **Run Robin** | `sudo docker run --rm \ -v "$(pwd)/.env:/app/.env" \ --add-host=host.docker.internal:host-gateway \ -p 8501:8501 \ apurvsg/robin:latest ui --ui-port 8501 --ui-host 0.0.0.0` |
+| **4** | **Run Robin** | RUN COMMAND NUMBER 16 ABOVE!!. |
 | **5** | **Access the UI** | Go to this link: **[http://localhost:8501/](http://localhost:8501/)** |
 | **6** | **Stop Robin** | Stop the running process by pressing **`Ctrl+C`**. |
 | **7** | **Stop Kali WSL** | `wsl --terminate kali-Linux` |
