@@ -5,7 +5,7 @@
 
 ### 🎬 Video Demonstration
 
-[![📩  Watch the ROBIN AI Video Demo  📩](assets/thumnail.png)](https://t.me/robinainew/2)
+[![Watch the ROBIN AI Video Demo(CLICK IMAGE)](assets/thumnail.png)](https://t.me/robinainew/2)
 
 Watch a full 20-minute demonstration of ROBIN-AI's OSINT capabilities.
 
