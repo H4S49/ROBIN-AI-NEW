@@ -34,7 +34,7 @@ This section details how to set up **Kali Linux** using **Windows Subsystem for 
 Docker is required to run the Robin AI tool.
 
 1.  **Install Docker Desktop for Windows:**
-    [Docker Desktop Setup Guide](https://docs.docker.com/desktop/setup/install/windows-install/)
+    [Docker Desktop Download Site](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 ---
 
@@ -97,7 +97,7 @@ Follow these steps to set up and configure the Robin AI tool.
 
 ## 🚀 Running Robin (Standard Docker)
 
-Use this command to run Robin as a detached container.
+14.  **Use this command to run Robin as a detached container.**
 
 ```bash
 sudo docker run -d \
@@ -107,6 +107,25 @@ sudo docker run -d \
   --env-file .env \
   robin
 ```
+
+15. **Update For latest Docker Pull.**
+
+```bash
+docker pull apurvsg/robin:latest
+
+```
+
+16. **Run AI.**
+
+```bash
+sudo docker run --rm \
+   -v "$(pwd)/.env:/app/.env" \
+   --add-host=host.docker.internal:host-gateway \
+   -p 8501:8501 \
+   apurvsg/robin:latest ui --ui-port 8501 --ui-host 0.0.0.0
+
+   ```
+
 ## 🔄 Robin Full Update
 
 ### Keep your Robin installation current with these commands.
@@ -139,7 +158,7 @@ sudo docker run -d \
 | **1** | **Turn on Kali Linux WSL** | `wsl -d kali-Linux` |
 | **2** | **Update Robin** | Execute all commands from the **[Robin Full Update](#robin-full-update)** section above. |
 | **3** | **Run Robin** | `sudo docker run --rm \ -v "$(pwd)/.env:/app/.env" \ --add-host=host.docker.internal:host-gateway \ -p 8501:8501 \ apurvsg/robin:latest ui --ui-port 8501 --ui-host 0.0.0.0` |
-| **4** | **Access the UI** | Go to this link: `http://localhost:8501/` |
+| **4** | **Access the UI** | Go to this link: **[http://localhost:8501/](http://localhost:8501/)** |
 | **5** | **Stop Robin** | Stop the running process by pressing **`Ctrl+C`**. |
 | **6** | **Stop Kali WSL** | `wsl --terminate kali-Linux` |
 | **7** | **Turn off Docker** | `wsl --terminate docker-desktop` |
