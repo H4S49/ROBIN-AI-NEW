@@ -3,6 +3,12 @@
 
 ---
 
+### 🎬 Video Demonstration
+
+[![Watch the ROBIN AI Video Demo](assets/robin_demo1.png)](https://t.me/robinainew/2)
+
+Watch a full 20-minute demonstration of ROBIN-AI's OSINT capabilities.
+
 ## 💻 Kali Linux (WSL) Installation
 
 This section details how to set up **Kali Linux** using **Windows Subsystem for Linux (WSL)**.
@@ -162,3 +168,6 @@ sudo docker run --rm \
 | **5** | **Stop Robin** | Stop the running process by pressing **`Ctrl+C`**. |
 | **6** | **Stop Kali WSL** | `wsl --terminate kali-Linux` |
 | **7** | **Turn off Docker** | `wsl --terminate docker-desktop` |
+
+
+
