@@ -2,6 +2,7 @@
 ## AI-Powered Dark Web OSINT Tool
 
 ---
+[BANGLAguide](https://github.com/H4S49/ROBIN-AI-NEW/blob/main/BANGLAguide.md)
 
 ### 🎬 Video Demonstration(CLICK IMAGE) ⤵️⤵️⤵️
 
