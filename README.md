@@ -4,11 +4,13 @@
 ---
 [BANGLAguide](https://github.com/H4S49/ROBIN-AI-NEW/blob/main/BANGLAguide.md)
 
-### 🎬 Video Demonstration(CLICK IMAGE) ⤵️⤵️⤵️
+### 🎬 Video Demonstration in Bangla Language📩(CLICK IMAGE) ⤵️⤵️⤵️
 
 [![Watch the ROBIN AI Video Demo(CLICK IMAGE)](assets/thumnail.png)](https://t.me/robinainew/2)
 
 Watch a full 20-minute demonstration of ROBIN-AI's OSINT capabilities.
+
+[English Tutotial Will be available soon....]
 
 ## 💻 Kali Linux (WSL) Installation
 
