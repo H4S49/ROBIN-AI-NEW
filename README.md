@@ -2,16 +2,17 @@
 ## AI-Powered Dark Web OSINT Tool
 
 ---
-[BANGLAguide](https://github.com/H4S49/ROBIN-AI-NEW/blob/main/BANGLAguide.md)
+<a href="https://github.com/H4S49/ROBIN-AI-NEW/blob/main/BANGLAguide.md" target="_blank" rel="noopener noreferrer">BANGLAguide</a>
 
 ### 🎬 Video Demonstration in Bangla Language📩(CLICK IMAGE) ⤵️⤵️⤵️
 
-[![Watch the ROBIN AI Video Demo(CLICK IMAGE)](assets/thumnail.png)](https://t.me/robinainew/2)
+<a href="https://t.me/robinainew/2" target="_blank" rel="noopener noreferrer">
+  <img src="assets/thumnail.png" alt="Watch the ROBIN AI Video Demo(CLICK IMAGE)">
+</a>
 
 Watch a full 20-minute demonstration of ROBIN-AI's OSINT capabilities.
 
 [English Tutotial Will be available soon....]
-
 ## 💻 Kali Linux (WSL) Installation
 
 This section details how to set up **Kali Linux** using **Windows Subsystem for Linux (WSL)**.
